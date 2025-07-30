@@ -1,0 +1,75 @@
+.projects-section {
+  padding: 4rem 2rem;
+  /* background-color: #0a0a0a; */
+  color: white;
+  min-height: 100vh;
+}
+
+.projects-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-family: "Libre Baskerville", serif;
+  color: #fbdc61;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #fbdc61;
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #ffe27c;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.project-card .tech {
+  display: inline-block;
+  font-size: 0.9rem;
+  background: #222;
+  color: #fbdc61;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.project-card .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #fbdc61;
+  color: #fbdc61;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-card .btn:hover {
+  background-color: #fbdc61;
+  color: #0a0a0a;
+}
