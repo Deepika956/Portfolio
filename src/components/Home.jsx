@@ -47,6 +47,15 @@ const Home = () => {
           </a>
         </div>
       </div>
+       <div className="fall-in delay-4">
+          <div className="social-icons">
+            <a href="https://github.com/Deepika956" target="_blank" rel="noreferrer">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/deepikapalla" target="_blank" rel="noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </div>
 
       {/* <div className="scroll-down">&#8595;</div> */}
     </section>
