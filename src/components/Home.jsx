@@ -56,7 +56,7 @@ const Home = () => {
               <i className="fab fa-linkedin"></i>
             </a>
           </div>
-
+        </div>
       {/* <div className="scroll-down">&#8595;</div> */}
     </section>
   );
