@@ -3,12 +3,7 @@ import './Projects.css';
 
 const projects = [
   {
-    title: "Sport-X",
-    description: "A responsive Sport events tracker. Consists 'Rgukt-Buzz' feature for instant sports updates within the campus.",
-    tech: " HTML, CSS, JavaScript, PHP, MySQL"
-  },
-  {
-    title: "Doctor Appointment Booking App",
+    title: "Doctor Appointment Booking Web-Application",
     description: "Full-stack app to book appointments with doctors. Features login, profiles, and time slot selection.",
     tech: "React,Express.js, Node.js, MongoDB",
     link: "https://github.com/Deepika956/Doc-Online.git"
